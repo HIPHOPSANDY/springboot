@@ -1,0 +1,18 @@
+package com.project.basics.db.demo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+@Repository 
+public class Person {
+		@Autowired
+		JdbcTemplate JdbcTemplate;
+	public List<Person> findAll() {
+		JdbcTemplate.query("select * from person", )
+		
+	}
+	
+}

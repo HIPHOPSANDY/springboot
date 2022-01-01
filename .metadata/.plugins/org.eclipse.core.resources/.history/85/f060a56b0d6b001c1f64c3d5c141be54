@@ -1,0 +1,5 @@
+package com.project.basics.db.demo;
+
+public class Person {
+
+}
